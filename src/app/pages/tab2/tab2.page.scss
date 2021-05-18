@@ -1,0 +1,97 @@
+.top-section, .ion-padding {
+    width: 120%;
+    height: 300px;
+    margin-left: -10%;
+    border-radius: 100%;
+    display: flex;
+    transform: translateY(-50%);
+    background-color: #00708F;
+    padding-bottom: 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: -1;
+    margin-bottom : -120px;
+    .top-menu{
+        justify-content: space-between;
+        padding-top: 10px;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: auto;
+        margin-left: auto;
+        margin-bottom: 50px;
+        margin-right: auto;
+        font-weight: bolder;
+        
+
+        h2 {
+            margin-top: 10px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.segment-button {
+    font-size: 10px;
+}
+
+ion-content {
+    --ion-background-color:#F3F9FF;
+    
+}
+
+ion-card {
+    
+    --ion-background-color:#ffffff;
+}
+
+ion-img {
+    min-width: 225px;
+    min-height: 127px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+ion-col h1{
+    text-align: center;
+    justify-content: center;
+    margin-top: 50%;
+    font-size: 40px;
+}
+
+.col-button {
+    --padding-end:right;
+    --background: #569CB0;
+}
+
+.padding {
+    min-width: 100%;
+    min-height: 57px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #F3F3F3;
+}
+
+.text-payment {
+    text-align: center;
+    color: black;
+    font-size: 12px;
+}
+
+.little-text {
+    font-size: 10px;
+    color:#5B5B5B;
+}
+
+.vl {
+    border: 1px solid #CDCDCD;
+    height: 100%;
+    width: 0.5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}

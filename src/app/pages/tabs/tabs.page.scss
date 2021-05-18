@@ -1,0 +1,16 @@
+:host {
+    ion-tab-bar, ion-tab-button{
+        background-color: #00708F;
+    }
+    ion-icon, ion-label{
+        color: #FFFFFF;
+      }
+
+    .tab-selected {
+        ion-icon, ion-label {
+            color: #03254c;
+            font-weight: bold;
+        }
+    }
+
+}

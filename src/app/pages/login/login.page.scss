@@ -1,0 +1,42 @@
+ion-content {
+    --ion-background-color:#F3F9FF;
+}
+
+ion-content h2 {
+    text-align: center;
+    margin-top: -10%;
+    font-weight: bold;
+}
+
+ion-item {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: -50px;
+    font-size: 14px;
+    color :#727272  
+}
+
+ion-img {
+    max-width: 239px;
+    max-height: 172px;
+    margin: 40% auto 10%;
+}
+
+.text-forget {
+    margin-bottom: 5%;
+    text-align: right;
+}
+
+ion-card {
+   box-shadow: none;
+}
+
+ion-button {
+    font-weight: bold;
+}
+
+.ripple-parent {
+    position: relative;
+    overflow: hidden;
+    text-align: right;
+  }
